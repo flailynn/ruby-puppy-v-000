@@ -14,6 +14,6 @@ class Dog
 
   ##clear_all class method resets @@all to an empty array
   def self.clear_all
-
+    @@all.clear
   end
 end
