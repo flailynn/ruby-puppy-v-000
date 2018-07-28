@@ -12,6 +12,7 @@ class Dog
     @@all << self
   end
 
+  ##clear_all class method resets @@all to an empty array
   def self.clear_all
 
   end
