@@ -19,8 +19,8 @@ class Dog
 
   ##all class method puts out the name of each Dog instance
   def self.all
-    @@all.each do |dog_hash|
-      puts dog_hash
+    @@all.each do |dog|
+      puts dog.name
     end
   end
 end
